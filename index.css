@@ -1,0 +1,17 @@
+body {
+    background-color: #212529;
+    color: #ced4da;
+}
+.hero-title {
+    color: #ced4da;
+    font-family: fantasy;
+}
+.p-text {
+    color: #ced4da;
+    font-family: verdana;
+}
+
+#link-interno {
+    text-decoration: none;
+    color: #ced4da;
+}
