@@ -27,6 +27,9 @@ body {
     width: 400px;
 }
 
-ul.lista-skills: {
+.lista-skills > li:nth-child(odd) {
+    font-style: italic;
+    background-color: purple;
+    width: 140px
     
 }
