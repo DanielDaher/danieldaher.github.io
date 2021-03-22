@@ -5,13 +5,28 @@ body {
 .hero-title {
     color: #ced4da;
     font-family: fantasy;
+    text-align: center;
 }
 .p-text {
     color: #ced4da;
     font-family: verdana;
+    font-size: larger;
+    position: absolute;
+    top: 220px;
+    left: 440px;
 }
 
 #link-interno {
     text-decoration: none;
     color: #ced4da;
+}
+
+.imagem {
+    padding: 10px;
+    background-color: #ced4da;
+    width: 400px;
+}
+
+ul.lista-skills: {
+    
 }
