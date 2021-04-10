@@ -1,0 +1,45 @@
+body {
+  background-color: grey;
+}
+
+button {
+  width: 90px;
+  display: block;
+  align-items: center;
+  /* margin:0 auto; */
+}
+
+.color {
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  display: inline-block;
+  height: 37px;
+  width: 37px;
+}
+
+#color-palette {
+  display: block;
+}
+
+#pixel-board {
+  height: 20px;
+  display: table-row-group;
+  border-collapse: collapse;
+}
+
+.pixel {
+  background-color: white;
+  height: 40px;
+  width: 40px;
+}
+
+td {
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+tr {
+  height: 40px;
+}
