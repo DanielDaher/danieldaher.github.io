@@ -1,5 +1,9 @@
 body {
-  background-color: grey;
+  background-image: url('https://cdn.pixabay.com/photo/2019/04/10/12/40/watercolour-4117017_960_720.png');
+  /* background-repeat: repeat-y;
+  background-size: 100%; */
+  background-size: 100%;
+  
 }
 
 button {
@@ -26,6 +30,7 @@ button {
   height: 20px;
   display: table-row-group;
   border-collapse: collapse;
+  margin: auto;
 }
 
 .pixel {
@@ -34,12 +39,23 @@ button {
   width: 40px;
 }
 
+#title, #color-palette{
+  text-align: center;
+}
+
 td {
   border: solid;
   border-width: 1px;
   border-color: black;
+  height: 40px;
+  width: 40px;
 }
 
 tr {
   height: 40px;
+}
+
+#clear-board {
+  margin-left: auto;
+  margin-right: auto;
 }
