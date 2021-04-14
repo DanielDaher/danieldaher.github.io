@@ -1,0 +1,46 @@
+img {
+  width: 500px;
+  height: 500px;
+}
+
+#meme-text {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  top: 460px;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  font-size: 30px;
+  width: 500px;
+  overflow-wrap: break-word;
+}
+
+#meme-image-container {
+  background-color: white;
+  border: black solid 1px;
+  width: 500px;
+  height: 500px;
+  margin: 20px auto;
+}
+
+body {
+  text-align: center;
+  background-color: #32CD32;
+}
+
+title {
+  display: block;
+  font-family: 'VT323', monospace;
+  font-size: 100px;
+}
+
+#benjaminButton {
+  display: none;
+}
+
+#text-input {
+  border-radius: 60%;
+  height: 60px;
+  /* background-color: black;
+  color: white; */
+}
