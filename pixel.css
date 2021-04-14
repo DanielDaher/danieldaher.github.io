@@ -3,16 +3,13 @@ body {
   /* background-repeat: repeat-y;
   background-size: 100%; */
   background-size: 100%;
-  
 }
 
 #board-size {
   display: inline-block;
   margin: 0 auto;
   margin-top: 9px;
-  /* margin-left: auto;
-  margin-right: auto;
- */
+  
 }
 
 #generate-board {
@@ -20,6 +17,13 @@ body {
   width: auto;
   justify-content: center;
 
+}
+
+#vqvFather {
+  display: block;
+  text-align: center;
+  height: 50px;
+  margin-top: 10px;
 }
 
 button {
@@ -79,5 +83,6 @@ tr {
 #tableFather {
   margin-left: auto;
   margin-right: auto;
+  width: fit-content;
 
 }
